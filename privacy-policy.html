@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Privacy Policy - Relaxing History</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.15em; margin-top: 1.8em; }
+  .updated { color: #666; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: August 2026</p>
+
+<p>This privacy policy describes how the "Relaxing History" application ("the App") accesses and uses Google user data via the Google APIs and YouTube API Services.</p>
+
+<h2>What the App Does</h2>
+<p>The App is private software used by its developer to manage and publish content to one specific YouTube channel. It is not a public-facing service, and it is not made available for use by any third party or any other Google account.</p>
+
+<h2>What Data the App Accesses</h2>
+<p>The App requests the following Google API scopes, solely to upload videos and thumbnails to the developer's own YouTube channel:</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/youtube.upload</code> - to upload video files and associated metadata (title, description, tags) to the channel.</li>
+  <li><code>https://www.googleapis.com/auth/youtube</code> - to set a custom thumbnail image on uploaded videos.</li>
+</ul>
+<p>The App also uses a separate Google service account (not tied to any individual Google user's consent) to read and write a private Google Sheet used internally for production scheduling, and to read two static asset files (a logo image and an audio file) from a private Google Drive folder. No data from these sources is shared with any third party.</p>
+
+<h2>What the App Does Not Do</h2>
+<ul>
+  <li>The App does not collect, store, or share any personal data belonging to viewers of the uploaded videos.</li>
+  <li>The App does not access, read, or use any Google user data belonging to any account other than the developer's own.</li>
+  <li>The App does not sell, rent, or transfer any accessed data to any third party.</li>
+  <li>The App does not use accessed data for advertising purposes.</li>
+</ul>
+
+<h2>Data Retention</h2>
+<p>Access tokens and refresh tokens are stored only within the developer's own private, self-hosted automation server and are not transmitted to or stored by any third party. Tokens can be revoked at any time via the developer's <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>The App's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be directed to the developer via the contact details provided in the associated Google Cloud project's OAuth consent screen configuration.</p>
+
+</body>
+</html>
